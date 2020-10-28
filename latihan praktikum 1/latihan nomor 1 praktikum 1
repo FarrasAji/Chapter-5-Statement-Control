@@ -1,0 +1,8 @@
+bahasaindonesia = int(input("Masukan Nilai bahasa indonesia :"))
+ipa = int(input("Masukkan Nilai Ipa :"))
+matematika = int(input("Masukkan Nilai Matematika :"))
+
+if (bahasaindonesia  >= 60) and (ipa >= 60) and (matematika > 70):
+    print("Status Kelulusan : LULUS")
+else:
+    print("Status Kelulusan : TIDAK LULUS")
